@@ -254,6 +254,16 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+            <!--mybatis自动生成插件 -->
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.3.5</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <overwrite>true</overwrite>
+                </configuration>
+            </plugin>
         </plugins>
         <pluginManagement>
             <plugins>
@@ -266,4 +276,6 @@
             </plugins>
         </pluginManagement>
     </build>
+
+
 </project>
