@@ -21,4 +21,11 @@ public class ItemController {
         TbItem tbItem = itemService.getItemById(itemId);
         return tbItem;
     }
+
+//    @RequestMapping("/item/list")
+//    @ResponseBody
+//    public EasyUIDataGridResult getItemList(Integer page, Integer rows) {
+//        EasyUIDataGridResult result = itemService.getItemList(page, rows);
+//        return result;
+//    }
 }
