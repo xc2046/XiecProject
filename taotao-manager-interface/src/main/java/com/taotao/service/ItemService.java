@@ -5,5 +5,5 @@ import com.taotao.pojo.TbItem;
 
 public interface ItemService {
     TbItem getItemById(long id);
-//    EasyUIDataGridResult getItemList(int page, int rows);
+    EasyUIDataGridResult getItemList(int page, int rows);
 }
